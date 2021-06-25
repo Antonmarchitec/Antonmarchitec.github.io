@@ -1,0 +1,600 @@
+<!--REALIZACION DE LA PAGINA CON FRAMEWORK BOOTSTRAP-->
+<!--
+
+  TAMAÑOS QUE MANEJA BOOTSTRAP PARA DIFERENTES DISPOSITIVOS:
+    xs ( < 575  )    TAMAÑO CELULAR
+    sm  (576 - 767)  TAMAÑO CELULAR
+    md  (768 - 991)  TAMAÑO SMART FONE O TABLETA
+    lg  (992 - 1199) TAMAÑO MONITORES ANTIGUOS O TABLES DE ALTA RESOLLUCION
+    xl  (1200 - > )  TAMAÑO PARA PC DE ESCRITORIO
+
+
+  COLORES
+  - primary
+  - secondary
+  - dark
+  - light
+  - danger
+  - warning
+  - success
+  - info
+  - white
+
+  Propiedades y funciones importantes 
+  - fluid   ...(la pagina hace que se mueestre al 100%) 
+  - d-xs-none     (desaparece una casilla de bootstrap)
+  - d-xs-block    (aparece nuevamente un campo de bootstrap)
+  - d-inline-block  (para poner en linea)
+
+    -->
+
+
+
+
+    
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PORTAFOLIO</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
+
+    <!------------ CDN LINK BOOTSTRAP---->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
+
+      
+    <!------------LINK PERSONALIZADO-------->
+    <link rel="stylesheet" type="text/css" href="mis_estilos/estilo.css">
+    <link rel="stylesheet" type="text/css" href="mis_estilos/menu.css">
+    <!------------LINK ANIMATION-------->
+    <link rel="stylesheet" href="mis_estilos/animate.min.css"/>
+
+    <!--NORMALISE-->
+    <link rel="stylesheet" href="mis_estilos/normalise.css">
+    
+
+    <!--FONT AWESON-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    
+</head>
+
+<body id="heed">
+ 
+  <!---------------CONTENEDOR MENU------------------------>
+  <!------------------------------------------------------>
+    
+      <header class="header">
+       <div class="header_logo">
+         <img src="img/LOGO/LOGO.png" alt="logo" width="100%" height="100%">
+       </div>
+
+
+       <div class="header_btnResponsive">
+        <i class="iconResponsive fas fa-bars" id="iconResponsive"></i>
+       </div>
+
+
+       <nav class="header_nav" id="header_nav">
+             <a href="#heed" class="enlace">INICIO</a>
+             <a href="#cont_descripcion_foto" class="enlace">ACERCA</a>
+             <a href="#contenedor_portfolios" class="enlace">PORTAFOLIOS</a>
+             <a href="#cont_grande" class="enlace">SERVICIOS</a>
+             <a href="#tecnologias" class="enlace">HABILIDADES</a>
+             <a href="#contacto" class="enlace">CONTACTO</a>
+           
+       </nav> 
+      </header>
+    
+    
+
+
+
+
+
+
+
+   <!---------------CONTENEDOR CUADRO RED------------------------>
+  <!------------------------------------------------------>
+  <!------------------------------------------------------>
+   
+      
+        <div class="contParticulas">
+          <div id="particles-js">
+            
+              <h1 class="titulo_principal">Hola,<br>Soy Antonio Ponce! </h1>
+              <h2 class="subtitle"> <- Desarrollador web<span class="front"> - FrontEnd -> </span><span>&#160;</span></h2>
+              <!-- <div class="contenedor_redessociales"> 
+                  <a href="#"><div class="instagram animate__animated animate__rotateIn" style="animation-duration: 3s;"></div></a>
+                  <a href="#"><div class="faccebook animate__animated animate__rotateIn" style="animation-duration: 3s;"></div></a>
+                  <a href="https://wa.me/+59170856061?text=Hola%20necesito%20información"><div class="twiter animate__animated animate__rotateIn" style="animation-duration: 3s;"></div></a>
+                  <a href="#"><div class="youtube animate__animated animate__rotateIn" style="animation-duration: 3s;"></div></a>
+              </div> -->
+  
+          
+          </div>
+        </div>
+          
+    
+  
+
+
+
+
+        
+  <!---------------CONTENEDOR PRIMERA SECCION ACERCA DE------------------------>
+  <!------------------------------------------------------>
+  <!------------------------------------------------------>
+  <div class="container-fluid" style="background: rgba(27, 27, 27, 0);">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div id="cont_descripcion_foto">
+         <div class="contenedor_izq">
+            <h2 class="titulo_acerca
+            wow animate__animated animate__fadeInDown" >ACERCA DE</h2>
+              <hr style="color: rgb(199, 10, 10);">
+            <p class="descripcion_acerca 
+            wow animate__animated animate__fadeInDown">
+              Hola, mi nombre es Antonio Ponce y soy un emprendedor freelancer amante del mundo
+              digital, mi trabajo está dirigido al desarrollo web FrontEnd y diseño gráfico aplicando
+              distintas tecnologías.
+            </p>
+         </div>
+
+         <div class="contenedor_der">
+          <div class="foto">
+            <!--imagen-->
+          </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+
+
+
+
+
+
+
+
+    <!---------------CONTENEDOR SEGUNDA SECCION PORTAFOLIO------------------------>
+  <!------------------------------------------------------>
+  <!------------------------------------------------------>
+  
+    <div id="contenedor_portfolios">
+      <h2 class="title_portfolios
+      wow animate__animated animate__fadeInDown">
+        PORTAFOLIOS
+      </h2>
+      
+      <div class="container_portfolios">
+
+        <!--PORTFOLIO DEVELOPER-->
+        <div class="container_developer">
+          <div class="developer_izq wow animate__animated animate__swing">
+            <div class="img_developer ">
+
+            </div>
+            <div class="texto_developer">
+
+            </div>
+          </div>
+          <div class="developer_derecho">
+           <p class="title_developer">
+              DESARROLLO WEB
+           </p>
+           <p class="text_developer">
+            En este apartado se encuentran todos mis trabajos y proyectos 
+            relacionados con desarrollo web realizados en HTML, CSS y JAVA SCRIPT!
+            
+           </p>
+           <a href="developer.html" class="boton_developer btn btn-dark">Entrar</a>
+          </div>
+        </div>
+
+        <!--PORTFOLIO DESING-->
+        <div class="container_desing">
+          <div class="desing_izq">
+            <div class="img_desing wow animate__animated animate__swing">
+
+            </div>
+            <div class="texto_desing">
+              
+            </div>
+          </div>
+          <div class="desing_derecho">
+           <p class="title_desing">
+             DISEÑO GRÁFICO
+           </p>
+           <div class="text_desing">
+            El diseño gráfico es algo que siempre me encanto, en mi portafolio
+            encontraras los diseños y artes para redes sociales o también 
+            algunas de las ilustraciones que voy realizando!
+           </div>
+           <a href="diseño_grafico.html" class="boton_desing btn btn-danger">Entrar</a>
+          </div>
+        </div>
+      </div>   
+         
+    </div>
+ 
+
+
+
+
+
+
+
+   <!---------------CONTENEDOR TERCERA SECCION SERVICIOS------------------------>
+  <!------------------------------------------------------>
+  <!------------------------------------------------------>
+  <div class="container-fluid"  style="margin-top: 0px;">
+     <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+        <div id="cont_grande">
+            <h2 class="mis_servicios 
+            wow animate__animated animate__fadeInDown">SERVICIOS</h2> 
+            <hr style="color: white;">
+
+            <div class="cont_todos_marcos"> 
+              <!--------------PRIMER CUADRO---------------------->
+                <div class="cont_todos_marcos-marco
+                wow animate__animated animate__fadeInLeft
+                "style="animation-delay:1s;">     
+                    <div class="cont_todos_marcos-marco-image">
+
+                    </div>
+                    <div class="cont_todos_marcos-marco-sup">
+                      <h2 class="cont_todos_marcos-marco-sup-title
+                          wow animate__animated animate__fadeInDown">
+                        DISEÑO WEB RESPONSIVE
+                      </h2>
+                      <p class="cont_todos_marcos-marco-sup-text">
+                        Puedo diseñarte un sitio web como tú 
+                        deseas,
+                        totalmente
+                        personalizado y adaptado a cualquier 
+                        dispositivo móvil.
+                      </p>
+                    </div>
+                       
+                </div>   
+                
+              <!--------------SEGUNDO CUADRO---------------------->
+                <div class="cont_todos_marcos-marco
+                wow animate__animated animate__fadeInRight
+                "style="animation-delay:2s;">
+                  
+                  <div class="cont_todos_marcos-marco-image2">
+
+                  </div>
+                  <div class="cont_todos_marcos-marco-sup">
+                    <h2 class="cont_todos_marcos-marco-sup-title
+                    wow animate__animated animate__fadeInDown">
+                      WORDPRESS
+                    </h2>
+                    <p class="cont_todos_marcos-marco-sup-text">
+                      Tú eliges la plantilla y realizamos
+                      un sitio bonito y elegante con este 
+                      genial CMS.
+                    </p>
+                  </div>
+                  
+                       
+                </div>   
+
+              <!--------------TERCER CUADRO---------------------->
+                <div class="cont_todos_marcos-marco
+                wow animate__animated animate__fadeInLeft
+                "style="animation-delay:2s;">
+               
+                <div class="cont_todos_marcos-marco-image3">
+
+                </div>
+                <div class="cont_todos_marcos-marco-sup">
+                  <h2 class="cont_todos_marcos-marco-sup-title
+                  wow animate__animated animate__fadeInDown">
+                    HARDWARE Y SOFTWARE
+                  </h2>
+                  <p class="cont_todos_marcos-marco-sup-text">
+                    Si necesitas asistencia y tienes problemas 
+                    para instalar, reinstalar, eliminar o quizá aprender
+                    más sobre tu computadora, estoy para asistirte!
+                  </p>
+                </div>
+              
+                   
+                </div>      
+              <!--------------CUARTO CUADRO---------------------->
+                <div class="cont_todos_marcos-marco
+                wow animate__animated animate__fadeInRight
+                "style="animation-delay:1s;">
+              
+                <div class="cont_todos_marcos-marco-image4">
+
+                </div>
+                <div class="cont_todos_marcos-marco-sup">
+                  <h2 class="cont_todos_marcos-marco-sup-title
+                  wow animate__animated animate__fadeInDown">
+                    DISEÑO GRÁFICO
+                  </h2>
+                  <p class="cont_todos_marcos-marco-sup-text">
+                    Si quieres personalizar tu logo o 
+                    necesitas un arte para la publicidad de tu 
+                    negocio, estoy para ayudarte!
+                  </p>
+                </div>
+                
+                      
+                </div> 
+
+                <!--------------QUINTO CUADRO---------------------->
+              
+
+            </div>
+
+            
+        </div>         
+      </div>            
+     </div>
+   </div>   
+  
+  
+
+
+
+
+
+
+
+
+
+
+   <!---------------CONTENEDOR TERCERA SECCION HABILIDADES------------------------>
+  <!------------------------------------------------------>
+  <!------------------------------------------------------>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="cont_bigbig">
+          <div class="cont_big" id="tecnologias">
+            <h2 class="hh
+            wow animate__animated animate__fadeInDown">HABILIDADES</h2> 
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                      <hr style="color: white;">
+                      <div class="cont_cont_cuadros">
+                          <div class="contcuadro wow animate__animated animate__flipInX" style="animation-duration: 2s;">
+                             <div class="mi_imagen1"></div> 
+                          </div>
+                          <div class="contcuadro wow animate__animated animate__flipInX" style="animation-duration: 2s;">
+                            <div class="mi_imagen2"></div> 
+                         </div>
+                         <div class="contcuadro wow animate__animated animate__flipInX" style="animation-duration: 2s;">
+                            <div class="mi_imagen3"></div> 
+                         </div>
+                         <div class="contcuadro wow animate__animated animate__flipInX" style="animation-duration: 2s;">
+                            <div class="mi_imagen4"></div> 
+                         </div>
+                         <div class="contcuadro wow animate__animated animate__flipInX" style="animation-duration: 2s;">
+                          <div class="mi_imagen5"></div> 
+                       </div>
+                       <div class="contcuadro wow animate__animated animate__flipInX" style="animation-duration: 2s;">
+                        <div class="mi_imagen6"></div> 
+                       </div>
+                       <div class="contcuadro wow animate__animated animate__flipInX" style="animation-duration: 2s;">
+                        <div class="mi_imagen7"></div> 
+                       </div>
+                       
+                      </div>
+                    </div>
+                </div>
+            </div>
+         </div> 
+         
+         
+        </div>
+        
+        
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+ <!---------------CONTENEDOR TERCERA SECCION CONTACTO------------------------>
+  <!------------------------------------------------------>
+  <!------------------------------------------------------>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div id="contacto">
+          <h2 class="titulo_sup_contacto 
+          wow animate__animated animate__fadeInDown">
+            CONTACTO
+          </h2>
+        </div>
+       
+        <hr style="color: white;">
+
+        <div class="cont_base_contacto">
+
+         <div class="caja " style="animation-duration: 2s;">
+          <p class="titulo_contacto">
+            CONTACTO
+          </p>
+          <p class="texto_contacto">
+            Puedes contactarme escribiéndome al:<br> 70856061 :)
+          </p>
+          <div class="imagen_contacto">
+            <a href="https://wa.me/+59170856061?text=Hola%20necesito%20información">
+              <img src="img/contacto.png" width="100%" height="100%">
+            </a>
+          </div>
+         </div>
+
+         <div class="caja" style="animation-duration: 2s;">
+          <p class="titulo_contacto">
+            SITIO WEB
+          </p>
+          <p class="texto_contacto">
+            Visita mi sitio web:<br>
+            www.antomdeveloper.com
+          </p>
+          <div class="imagen_contacto">
+            <img src="img/web.png" width="100%" height="100%">
+          </div>
+         </div>
+
+         <div class="caja " style="animation-duration: 2s;">
+          <p class="titulo_contacto">
+            UBICACIÓN
+          </p>
+         
+          <p class="texto_contacto">
+            Mi ubicación es en:<br>
+            Santa Cruz - Bolivia
+          </p>
+          <div class="imagen_contacto">
+           <img src="img/ubicacion.png" width="100%" height="100%">
+          </div>
+         </div>
+         
+       </div>    
+      </div>
+    </div>
+  </div>
+
+
+
+  
+ <!---------------CONTENEDOR DERECHOS ------------------------>
+  <!------------------------------------------------------>
+  <!------------------------------------------------------>
+
+  <div class="contDerechos">
+    <h2 class="contFooter_derechos_text">
+      DERECHOS RESERVADOS  <span class="ap"> || ANTONIO PONCE</span>
+    </h2>
+  </div>
+
+
+
+
+
+
+
+
+  <!---------------CONTAINER GUIAS------------------------>
+  <a href="#heed">
+    <div class="cont_guias wow animate__animated animate__rotateIn" style="animation-duration:3s ;">
+
+    </div>
+  </a>
+
+
+
+
+
+
+
+
+  <!---------------CONTENEDOR SECCION FOOTER------------------------>
+  <!------------------------------------------------------>
+  <!---------------------------------------------------->
+  
+  <div class="contFooter">
+    <div class="contFooter_cuadroBase">
+      <div class="contFooter_cuadroBase_caja">
+        <a href="#"><i class="IconRed fab fa-facebook-square"></i></a>
+      </div>
+      <div class="contFooter_cuadroBase_caja">
+        <a href="#"><i class="IconRed fab fa-instagram-square"></i></a>
+      </div>
+      <div class="contFooter_cuadroBase_caja">
+        <a href="#"><i class="IconRed fab fa-twitter-square"></i></a>
+      </div>
+      <div class="contFooter_cuadroBase_caja">
+        <a href="#"><i class="IconRed fab fa-youtube"></i></a>
+      </div>
+    </div>
+
+
+     <!-- <div class="contFooter_derechos">
+       <h2 class="contFooter_derechos_text">
+         DERECHOS RESERVADOS  <span class="ap"> || ANTONIO PONCE</span>
+       </h2>
+     </div> -->
+  </div>
+  
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+     
+
+   <!--SCRIPT DE ANIMATION EL SCROLLING-->
+   <script src="mis_scripts/wow.min.js"></script>
+   <script>
+      new WOW().init();
+   </script>
+   
+    <!--SCRIPT PARA EL MENU PRINCIPAL-->
+     <script src="mis_scripts/menu.js"></script>
+
+
+     
+    <!--SCRIPT DE PARTICULAS-->
+    <script src="mis_scripts/particles.min.js"></script>
+    <script src="mis_scripts/app.js"></script>
+
+    
+   
+     <!--SCRIPT DE BOOTSTRAP -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,2467 @@
+/******************************************/
+/***    DISEÑO PARA PC NOOTBUK     1024PX  
+
+@media only screen and (max-width:991px){
+
+}
+
+
+TAMAÑOS QUE MANEJA BOOTSTRAP PARA DIFERENTES DISPOSITIVOS:
+    xs ( < 575  )    TAMAÑO CELULAR
+    sm  (576 - 767)  TAMAÑO CELULAR
+    md  (768 - 991)  TAMAÑO SMART FONE O TABLETA
+    lg  (992 - 1199) TAMAÑO MONITORES ANTIGUOS O TABLES DE ALTA RESOLLUCION
+    xl  (1200 - > )  TAMAÑO PARA PC DE ESCRITORIO
+
+    
+/******************************************/
+/******************************************/
+/*****************************************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+/***CONTENEDOR CUADRO DE IMAGEN Y REDES SOCIALES*****************************/
+/******************************************/
+/******************************************/
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(207,14,14,1) 50%, rgba(11,11,11,1) 100%);
+
+}
+.cont-diseño{
+    margin-top: 80px;
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/DISEÑO/cabezera.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#cont-diseño_cont-opacity{
+    width: 100%;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.575);
+    padding-top: 50px;
+}
+.cont-diseño_cont-opacity_title{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 70px;
+    
+   
+}
+.cont-diseño_cont-opacity_subtitle{
+    text-align: center;
+    color: rgb(212, 212, 212);
+    margin-top: -45px;
+}
+
+
+
+
+/****************SECCION DE CUADROS TARJETAS PERSONALIZADAS**************************/
+/******************************************/
+/******************************************/
+
+#cont_titulo{   /*GLOBAL*/
+    margin-top: 100px;
+    width: 100%;
+    padding-top: 100px;
+}
+.title{     /*GLOBAL*/
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+   
+}
+.text_description{
+    margin: 30px auto;
+    width: 800px;
+    color:white;
+    text-align:center;
+    
+}
+/**************************************/
+
+.seccion_cuadros{
+    margin: 50px auto;
+    width: 100%; 
+    background: rgba(0, 0, 0, 0.452);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 30px;
+    
+}
+.base_box{   /***para todas las cajas*****/
+    margin:10px;
+    width:250px;
+    height: 200px;
+    
+    border: 3px solid rgb(71, 71, 71);
+    border-radius: 20px;
+    box-shadow: 0px 10px 0px black;
+    overflow: hidden;
+}
+.base_box:hover{
+    box-shadow: 0px 5px 0px rgb(112, 112, 112);
+}
+.base_box.cont_inferior{   /***para todas las cajas*****/
+    width:250px;
+    height:200px;
+    
+   
+}
+.base_box .caja_imagen{
+    width: 250px;
+    height: 200px;
+}
+
+
+/****************LAS IMAGENES CUADRO INFERIOR***********************/
+.base_box .imagen1{
+    width: 250px;
+    height: 200px;
+    background-image: url(../img/TARJETAS/T1.jpg);
+    background-size: 100% 100%;
+
+}
+.base_box .imagen2{
+    width: 250px;
+    height: 200px;
+    background-image: url(../img/TARJETAS/T2.jpg);
+    background-size: 100% 100%;
+
+}
+.base_box .imagen3{
+    width: 250px;
+    height: 200px;
+    background-image: url(../img/TARJETAS/T3.jpg);
+    background-size: 100% 100%;
+
+}
+.base_box .imagen4{
+    width: 250px;
+    height: 200px;
+    background-image: url(../img/TARJETAS/T4.jpg);
+    background-size: 100% 100%;
+
+}
+.base_box .imagen5{
+    width: 250px;
+    height: 200px;
+    background-image: url(../img/TARJETAS/T5.jpg);
+    background-size: 100% 100%;
+
+}
+.base_box .imagen6{
+    width: 250px;
+    height: 200px;
+    background-image: url(../img/TARJETAS/T6.jpg);
+    background-size: 100% 100%;
+
+}
+.base_box .imagen7{
+    width: 250px;
+    height: 200px;
+    background-image: url(../img/TARJETAS/T7.jpg);
+    background-size: 100% 100%;
+
+}
+.base_box .imagen8{
+    width: 250px;
+    height: 200px;
+    background-image: url(../img/TARJETAS/T8.jpg);
+    background-size: 100% 100%;
+
+}
+.base_box .imagen9{
+    width: 250px;
+    height: 200px;
+    background-image: url(../img/TARJETAS/T9.jpg);
+    background-size: 100% 100%;
+
+}
+/****************LAS IMAGENES CUADRO SUPERIOR***********************/
+
+.base_box .cont_superior1{  
+    margin-top: -200px;
+    width:250px;
+    height:200px;
+    background:rgba(0, 0, 0, 0.527);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior1:hover{
+    background: transparent;   
+}
+
+.base_box .cont_superior2{  
+    margin-top: -200px;
+    width:250px;
+    height:200px;
+    background:rgba(0, 0, 0, 0.527);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior2:hover{
+    background: transparent;    
+}
+
+.base_box .cont_superior3{  
+    margin-top: -200px;
+    width:250px;
+    height:200px;
+    background:rgba(0, 0, 0, 0.527);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior3:hover{
+    background: transparent;   
+}
+
+.base_box .cont_superior4{  
+    margin-top: -200px;
+    width:250px;
+    height:200px;
+    background:rgba(0, 0, 0, 0.527);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior4:hover{
+    background: transparent;   
+}
+
+.base_box .cont_superior5{  
+    margin-top: -200px;
+    width:250px;
+    height:200px;
+    background:rgba(0, 0, 0, 0.527);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior5:hover{
+    background: transparent;    
+}
+
+.base_box .cont_superior6{  
+    margin-top: -200px;
+    width:250px;
+    height:200px;
+    background:rgba(0, 0, 0, 0.527);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior6:hover{
+    background: transparent;   
+}
+
+.base_box .cont_superior7{  
+    margin-top: -200px;
+    width:250px;
+    height:200px;
+    background:rgba(0, 0, 0, 0.527);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior7:hover{
+    background: transparent;   
+}
+
+.base_box .cont_superior8{  
+    margin-top: -200px;
+    width:250px;
+    height:200px;
+    background:rgba(0, 0, 0, 0.527);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior8:hover{
+    background: transparent;   
+}
+
+.base_box .cont_superior9{  
+    margin-top: -200px;
+    width:250px;
+    height:200px;
+    background:rgba(0, 0, 0, 0.527);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior9:hover{
+    background: transparent;   
+}
+
+
+
+/****************SECCION DE CUADROS FLAYERS**************************/
+/******************************************/
+/******************************************/
+#cont_titulo_flayers{
+  width: 100%;
+  padding-top: 100px;
+}
+.title_flayers{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+/**************************************/
+.cont_flayers{
+    width:100%;
+    background: rgb(255, 255, 255);
+    margin: 50px auto;
+    padding: 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.base_flayer{
+    width:250px;
+    height: 300px;
+    margin: 5px;
+    border-radius: 0px 25px 25px 0px;
+    box-shadow: -5px 5px 5px rgb(54, 54, 54);
+    overflow: hidden;
+}
+.base_flayer .contenido_inferior{
+    width:250px;
+    height: 300px;
+    background: transparent;
+}
+.base_flayer .contenido_superior{
+    margin-top: -300px;
+    margin-left: 0px;
+    width:250px;
+    height: 300px;
+    background: rgba(29, 29, 29, 0.801);
+    transition-property: margin-left;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
+.base_flayer:hover .contenido_superior{
+    margin-left: -250px;
+    
+}
+
+.imagen_flayer1{
+    width:250px;
+    height: 300px;
+    background-image: url(../img/FLAYERS/FLAYER1.jpg);
+    background-size: 100% 100%;
+    
+}
+.imagen_flayer2{
+    width:250px;
+    height: 300px;
+    background-image: url(../img/FLAYERS/FLAYER5.jpg);
+    background-size: 100% 100%;
+    
+}
+.imagen_flayer3{
+    width:250px;
+    height: 300px;
+    background-image: url(../img/FLAYERS/FLAYER\ 3.jpg);
+    background-size: 100% 100%;
+    
+}
+.imagen_flayer4{
+    width:250px;
+    height: 300px;
+    background-image: url(../img/FLAYERS/FLAYER\ 4\ .jpg);
+    background-size: 100% 100%;
+}
+
+
+
+/*************CONTENEDOR SECCION LOGOS*****************************/
+/******************************************/
+/******************************************/
+#title_logos{
+    background:transparent;
+    padding-top: 100px;
+}
+.title_logos{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+/**********************************/
+.seccion_artes_redes{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.986);
+    padding: 30px 1px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center; 
+}
+.cont_base_artes{
+    width: 200px;
+    height:200px;
+    margin: 5px 10px;
+    overflow: hidden;
+}
+.cont_base_artes .caja_artes_inferior{
+    width: 200px;
+    height: 200px;
+    background-image:url(../img/LOGOS/logo_veterinaria.png);
+    background-size: 100% 100%;
+}
+.cont_base_artes .caja_artes_superior{
+    width: 350px;
+    height: 350px;
+    background: rgba(255, 255, 255, 0.548);
+    transition: margin-top 0.1s ease;
+}
+.cont_base_artes:hover .caja_artes_superior{
+    margin-top: -350px;
+}
+
+
+
+/************IMAGENES*****************/
+.cont_base_artes .caja_artes_inferior2{
+    width: 200px;
+    height: 200px;
+    background-image:url(../img/LOGOS/logo_veterinaria2.png);
+    background-size: 100% 100%;
+}
+
+.cont_base_artes .caja_artes_inferior3{
+    width: 200px;
+    height: 200px;
+    background-image:url(../img/LOGOS/logo_veterinaria3.png);
+    background-size: 100% 100%;
+}
+.cont_base_artes .caja_artes_inferior4{
+    width: 200px;
+    height: 200px;
+    background-image:url(../img/LOGOS/logo_veterinaria4.jpg);
+    background-size: 100% 100%;
+}
+.cont_base_artes .caja_artes_inferior5{
+    width: 200px;
+    height: 200px;
+    background-image:url(../img/LOGOS/logo_veterinaria5.png);
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
+/*************CONTENEDOR DE LA GUIA*****************************/
+/******************************************/
+/******************************************/
+.cont_guias{
+    width: 60px;
+    height: 40px;
+    background-image: url(../img/DISEÑO/flechas_arriba_blanca.png);
+    background-size: 100% 100%;
+    position: fixed;
+    right: 20px;
+    bottom:150px;
+    
+}
+
+
+
+
+
+
+/*************CONTENEDOR SECCION FOOTER*****************************/
+/******************************************/
+/******************************************/
+#seccion_footer{
+    width: 100%;
+    background: transparent;
+    padding: 10px 1px;
+   
+}
+.menu_inferior{
+    width: 100%;
+    margin: auto;   
+    
+}
+.nav .ul{
+    
+    width:100%;
+    margin: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav .ul .li{
+    
+    padding: 10px;
+    display: inline-block;
+}
+.nav .ul .li .a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav .ul .li .a:hover{
+    color: rgb(250, 77, 77);
+}
+.descrip_peque{
+    
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************MAX WIDTH 720PX**********************************/
+/*************************MAX WIDTH 720PX**********************************/
+/*************************MAX WIDTH 720PX**********************************/
+/*************************MAX WIDTH 720PX**********************************/
+/*************************MAX WIDTH 720PX**********************************/
+
+@media only screen and (max-width:720px){
+    
+    /***CONTENEDOR CUADRO DE IMAGEN Y REDES SOCIALES*****************************/
+    /******************************************/
+    /******************************************/
+    
+    .cont-diseño{
+        margin-top: 80px;
+        width: 100%;
+        height: 300px;
+        background-image: url(../img/DISEÑO/cabezera.jpg);
+        background-size:100% 100%;
+        background-attachment: unset;
+    }
+    #cont-diseño_cont-opacity{
+        width: 100%;
+        height: 300px;
+        background: rgba(0, 0, 0, 0.438);
+        padding-top: 60px;
+    }
+    .cont-diseño_cont-opacity_title{
+        font-size: 50px; 
+        color: rgb(240, 23, 23); 
+       
+    }
+    .cont-diseño_cont-opacity_subtitle{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-top: -35px;
+    }
+    
+    
+    
+    
+    /****************SECCION DE CUADROS TARJETAS PERSONALIZADAS**************************/
+    /******************************************/
+    /******************************************/
+    
+    #cont_titulo{   /*GLOBAL*/
+        margin-top: 0px;
+        /*width: 100%;
+        padding-top: 100px;
+     */
+    }
+    .title{     /*GLOBAL*/
+        font-size: 35px;
+        /*text-align: center;
+        color: rgb(255, 255, 255);*/
+       
+    }
+    .text_description{
+        margin:0px;
+        margin-top: 20px;
+        padding:5px 40px;
+        width:100%;
+        color:rgb(255, 255, 255);
+        text-align:justify;
+        
+        
+    }
+      
+    }
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************MAX WIDTH 640PX**********************************/
+/*************************MAX WIDTH 640PX**********************************/
+/*************************MAX WIDTH 640PX**********************************/
+/*************************MAX WIDTH 640PX**********************************/
+/*************************MAX WIDTH 640PX**********************************/
+
+@media only screen and (max-width:640px){
+    
+    /***CONTENEDOR CUADRO DE IMAGEN Y REDES SOCIALES*****************************/
+    /******************************************/
+    /******************************************/
+    
+    .cont-diseño{
+        margin-top: 80px;
+        width: 100%;
+        height: 300px;
+        background-image: url(../img/DISEÑO/cabezera.jpg);
+        background-size:100% 100%;
+        background-attachment: unset;
+    }
+    #cont-diseño_cont-opacity{
+        width: 100%;
+        height: 300px;
+        background: rgba(0, 0, 0, 0.438);
+        padding-top: 60px;
+    }
+    .cont-diseño_cont-opacity_title{
+        font-size: 50px; 
+        color: rgb(240, 23, 23); 
+       
+    }
+    .cont-diseño_cont-opacity_subtitle{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-top: -35px;
+    }
+    
+    
+    
+    
+    /****************SECCION DE CUADROS TARJETAS PERSONALIZADAS**************************/
+    /******************************************/
+    /******************************************/
+    
+    #cont_titulo{   /*GLOBAL*/
+        margin-top: 0px;
+        /*width: 100%;
+        padding-top: 100px;
+     */
+    }
+    .title{     /*GLOBAL*/
+        font-size: 35px;
+        /*text-align: center;
+        color: rgb(255, 255, 255);*/
+       
+    }
+    .text_description{
+        margin:0px;
+        margin-top: 20px;
+        padding:5px 40px;
+        width:100%;
+        color:rgb(255, 255, 255);
+        text-align:justify;
+        
+        
+    }
+      
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+/*************************MAX WIDTH 480PX**********************************/
+/*************************MAX WIDTH 480PX**********************************/
+/*************************MAX WIDTH 480PX**********************************/
+/*************************MAX WIDTH 480PX**********************************/
+/*************************MAX WIDTH 480PX**********************************/
+
+@media only screen and (max-width:480px){
+    
+    /***CONTENEDOR CUADRO DE IMAGEN Y REDES SOCIALES*****************************/
+    /******************************************/
+    /******************************************/
+    
+    .cont-diseño{
+        margin-top: 80px;
+        width: 100%;
+        height: 300px;
+        background-image: url(../img/DISEÑO/cabezera.jpg);
+        background-size:100% 100%;
+        background-attachment: unset;
+    }
+    #cont-diseño_cont-opacity{
+        width: 100%;
+        height: 300px;
+        background: rgba(0, 0, 0, 0.438);
+        padding-top: 60px;
+    }
+    .cont-diseño_cont-opacity_title{
+        font-size: 50px; 
+        color: rgb(240, 23, 23); 
+       
+    }
+    .cont-diseño_cont-opacity_subtitle{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-top: -35px;
+    }
+
+    
+
+/****************SECCION DE CUADROS TARJETAS PERSONALIZADAS**************************/
+/******************************************/
+/******************************************/
+
+#cont_titulo{   /*GLOBAL*/
+    margin-top: 100px;
+    width: 100%;
+    padding-top: 100px;
+    
+   
+}
+.title{     /*GLOBAL*/
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    
+}
+.text_description{
+    margin: 30px auto;
+    width: 100%;
+    color:white;
+    text-align:center;
+    
+    
+}
+/**************************************/
+
+.seccion_cuadros{
+    margin: 50px auto;
+    width: 100%; 
+    background: rgba(0, 0, 0, 0.452);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 5px;
+    
+    
+}
+.base_box{   /***para todas las cajas*****/
+    margin:10px;
+    width:200px;
+    height: 200px;
+    border: 3px solid rgb(71, 71, 71);
+    border-radius: 20px;
+    box-shadow: 0px 10px 0px black;
+    overflow: hidden;
+}
+.base_box:hover{
+    box-shadow: 0px 5px 0px rgb(112, 112, 112);
+}
+.base_box.cont_inferior{   /***para todas las cajas*****/
+    width:200px;
+    height:200px;
+    
+   
+}
+.base_box .caja_imagen{
+    width: 200px;
+    height: 200px;
+}
+
+
+/****************LAS IMAGENES CUADRO INFERIOR***********************/
+.base_box .imagen1{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/TARJETAS/T1.jpg);
+    background-size: 100% 100%;
+
+}
+.base_box .imagen2{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/TARJETAS/T2.jpg);
+    background-size: 100% 100%;
+
+}
+.base_box .imagen3{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/TARJETAS/T3.jpg);
+    background-size: 100% 100%;
+
+}
+.base_box .imagen4{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/TARJETAS/T4.jpg);
+    background-size: 100% 100%;
+
+}
+.base_box .imagen5{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/TARJETAS/T5.jpg);
+    background-size: 100% 100%;
+
+}
+.base_box .imagen6{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/TARJETAS/T6.jpg);
+    background-size: 100% 100%;
+
+}
+.base_box .imagen7{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/TARJETAS/T7.jpg);
+    background-size: 100% 100%;
+
+}
+.base_box .imagen8{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/TARJETAS/T8.jpg);
+    background-size: 100% 100%;
+
+}
+.base_box .imagen9{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/TARJETAS/T9.jpg);
+    background-size: 100% 100%;
+
+}
+/****************LAS IMAGENES CUADRO SUPERIOR***********************/
+
+.base_box .cont_superior1{  
+    margin-top: -200px;
+    width:200px;
+    height:200px;
+    background:rgba(0, 0, 0, 0.527);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior1:hover{
+    background: transparent;   
+}
+
+.base_box .cont_superior2{  
+    margin-top: -200px;
+    width:200px;
+    height:200px;
+    background:rgba(0, 0, 0, 0.527);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior2:hover{
+    background: transparent;    
+}
+
+.base_box .cont_superior3{  
+    margin-top: -200px;
+    width:200px;
+    height:200px;
+    background:rgba(0, 0, 0, 0.527);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior3:hover{
+    background: transparent;   
+}
+
+.base_box .cont_superior4{  
+    margin-top: -200px;
+    width:200px;
+    height:200px;
+    background:rgba(0, 0, 0, 0.527);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior4:hover{
+    background: transparent;   
+}
+
+.base_box .cont_superior5{  
+    margin-top: -200px;
+    width:200px;
+    height:200px;
+    background:rgba(0, 0, 0, 0.527);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior5:hover{
+    background: transparent;    
+}
+
+.base_box .cont_superior6{  
+    margin-top: -200px;
+    width:200px;
+    height:200px;
+    background:rgba(0, 0, 0, 0.527);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior6:hover{
+    background: transparent;   
+}
+
+.base_box .cont_superior7{  
+    margin-top: -200px;
+    width:200px;
+    height:200px;
+    background:rgba(0, 0, 0, 0.527);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior7:hover{
+    background: transparent;   
+}
+
+.base_box .cont_superior8{  
+    margin-top: -200px;
+    width:200px;
+    height:200px;
+    background:rgba(0, 0, 0, 0.527);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior8:hover{
+    background: transparent;   
+}
+
+.base_box .cont_superior9{  
+    margin-top: -200px;
+    width:200px;
+    height:200px;
+    background:rgba(0, 0, 0, 0.527);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior9:hover{
+    background: transparent;   
+}
+
+
+/****************SECCION DE CUADROS FLAYERS**************************/
+/******************************************/
+/******************************************/
+#cont_titulo_flayers{
+    width: 100%;
+    padding-top: 100px;
+  }
+  .title_flayers{
+      text-align: center;
+      color: white;
+      font-size: 40px;
+  }
+  
+  /**************************************/
+  .cont_flayers{
+      width:100%;
+      margin: 50px auto;
+      padding: 40px 0px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+  }
+  
+  
+  .base_flayer{
+      width:90%;
+      height: 500px;
+      margin: 10px auto;
+      border-radius: 0px 25px 25px 0px;
+      box-shadow: -5px 5px 5px rgb(54, 54, 54);
+      overflow: hidden;
+      background: red;
+  }
+  .base_flayer .contenido_inferior{
+      width:100%;
+      height: 500px;
+      background: transparent;
+  }
+  .base_flayer .contenido_superior{
+      margin-top:-500px;
+      margin-left: 0px;
+      width:100%;
+      height: 500px;
+      background: rgba(29, 29, 29, 0.801);
+      transition-property: margin-left;
+      transition-duration: 0.2s;
+      transition-timing-function: ease;
+  }
+  .base_flayer:hover .contenido_superior{
+      margin-left: -100%;
+      
+  }
+  
+  .imagen_flayer1{
+      width:100%;
+      height: 500px;
+      background-image: url(../img/FLAYERS/FLAYER1.jpg);
+      background-size: 100% 100%;
+      
+  }
+  .imagen_flayer2{
+      width:100%;
+      height: 500px;
+      background-image: url(../img/FLAYERS/FLAYER5.jpg);
+      background-size: 100% 100%;
+      
+  }
+  .imagen_flayer3{
+      width:100%;
+      height: 500px;
+      background-image: url(../img/FLAYERS/FLAYER\ 3.jpg);
+      background-size: 100% 100%;
+      
+  }
+  .imagen_flayer4{
+      width:100%;
+      height: 500px;
+      background-image: url(../img/FLAYERS/FLAYER\ 4\ .jpg);
+      background-size: 100% 100%;
+  }
+  
+
+
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************MAX WIDTH 423PX**********************************/
+/*************************MAX WIDTH 423PX**********************************/
+/*************************MAX WIDTH 423PX**********************************/
+/*************************MAX WIDTH 423PX**********************************/
+/*************************MAX WIDTH 423PX**********************************/
+
+@media only screen and (max-width:423px){
+    
+/***CONTENEDOR CUADRO DE IMAGEN Y REDES SOCIALES*****************************/
+/******************************************/
+/******************************************/
+
+.cont-diseño{
+    margin-top: 80px;
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/DISEÑO/cabezera.jpg);
+    background-size:100% 100%;
+    background-attachment: unset;
+}
+#cont-diseño_cont-opacity{
+    width: 100%;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.438);
+    padding-top: 60px;
+}
+.cont-diseño_cont-opacity_title{
+    font-size: 40px; 
+    color: rgb(240, 23, 23); 
+   
+}
+.cont-diseño_cont-opacity_subtitle{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: -35px;
+}
+
+
+
+
+/****************SECCION DE CUADROS TARJETAS PERSONALIZADAS**************************/
+/******************************************/
+/******************************************/
+
+#cont_titulo{   /*GLOBAL*/
+    margin-top: 50px;
+    padding: 1px 0px;
+    /*width: 100%;
+    padding-top: 100px;
+    background: blue;*/
+}
+.title{     /*GLOBAL*/
+    font-size: 35px;
+    /*text-align: center;
+    color: rgb(255, 255, 255);*/
+   
+}
+.text_description{
+    margin: 30px auto;
+    width: 100%;
+    color:rgb(255, 255, 255);
+    text-align:justify;
+    
+}
+
+/**************************************/
+
+.seccion_cuadros{
+    padding: 10px 10px;
+    /*margin: 50px auto;
+    width: 100%; 
+    background: rgba(0, 0, 0, 0.452);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;*/
+    
+    
+}
+.base_box{   /***para todas las cajas*****/
+    margin:10px 0px;
+    width:180px;
+    height: 130px;
+    background:transparent;
+    border: 2px solid rgb(71, 71, 71);
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px black;
+    overflow: hidden;
+}
+.base_box:hover{
+    box-shadow: 0px 2px 0px rgb(112, 112, 112);
+}
+.base_box.cont_inferior{   /***para todas las cajas*****/
+    width:180px;
+    height:130px;
+    
+   
+}
+.base_box .caja_imagen{
+    width: 180px;
+    height: 130px;
+}
+
+
+/****************LAS IMAGENES CUADRO INFERIOR***********************/
+.base_box .imagen1{
+    width: 180px;
+    height: 130px;
+    
+
+}
+.base_box .imagen2{
+    width: 180px;
+    height: 130px;
+    
+
+}
+.base_box .imagen3{
+    width: 180px;
+    height: 130px;
+   
+
+}
+.base_box .imagen4{
+    width: 180px;
+    height: 130px;
+   
+
+}
+.base_box .imagen5{
+    width: 180px;
+    height: 130px;
+    
+
+}
+.base_box .imagen6{
+    width: 180px;
+    height: 130px;
+    
+
+}
+.base_box .imagen7{
+    width: 180px;
+    height: 130px;
+    
+
+}
+.base_box .imagen8{
+    width: 180px;
+    height: 130px;
+    
+
+}
+.base_box .imagen9{
+    width: 180px;
+    height: 130px;
+    
+
+}
+/****************LAS IMAGENES CUADRO SUPERIOR***********************/
+
+.base_box .cont_superior1{  
+    margin-top: -130px;
+    width:180px;
+    height:130px;
+    background: rgba(0, 0, 0, 0.568);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior1:hover{
+    background:transparent;   
+}
+
+.base_box .cont_superior2{  
+    margin-top: -130px;
+    width:180px;
+    height:130px;
+    background: rgba(0, 0, 0, 0.568);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior2:hover{
+    background:transparent;   
+}
+
+.base_box .cont_superior3{  
+    margin-top: -130px;
+    width:180px;
+    height:130px;
+    background: rgba(0, 0, 0, 0.568);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior3:hover{
+    background:transparent;     
+}
+
+.base_box .cont_superior4{  
+    margin-top: -130px;
+    width:180px;
+    height:130px;
+    background: rgba(0, 0, 0, 0.568);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior4:hover{
+    background:transparent;      
+}
+
+.base_box .cont_superior5{  
+    margin-top: -130px;
+    width:180px;
+    height:130px;
+    background: rgba(0, 0, 0, 0.568);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior5:hover{
+    background:transparent;      
+}
+
+.base_box .cont_superior6{  
+    margin-top: -130px;
+    width:180px;
+    height:130px;
+    background: rgba(0, 0, 0, 0.568);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior6:hover{
+    background:transparent;     
+}
+
+.base_box .cont_superior7{  
+    margin-top: -130px;
+    width:180px;
+    height:130px;
+    background: rgba(0, 0, 0, 0.568);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior7:hover{
+    background:transparent;     
+}
+
+.base_box .cont_superior8{  
+    margin-top: -130px;
+    width:180px;
+    height:130px;
+    background: rgba(0, 0, 0, 0.568);
+    transition-property: background-image;
+    transition-duration:0.1s;
+}
+.cont_superior8:hover{
+    background:transparent;      
+}
+
+
+
+
+
+/*************CONTENEDOR SECCION LOGOS*****************************/
+/******************************************/
+/******************************************/
+#title_logos{
+    background:transparent;
+    padding-top: 100px;
+}
+.title_logos{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+/**********************************/
+.seccion_artes_redes{
+    width: 100%;
+    padding: 30px 1px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center; 
+}
+.cont_base_artes{
+    width: 170px;
+    height:170px;
+    margin: 5px 5px;
+    overflow: hidden;
+}
+.cont_base_artes .caja_artes_inferior{
+    width: 170px;
+    height: 170px;
+    background-image:url(../img/LOGOS/logo_veterinaria.png);
+    background-size: 100% 100%;
+}
+.cont_base_artes .caja_artes_superior{
+    width: 170px;
+    height: 170px;
+    background: rgba(255, 255, 255, 0.548);
+    transition: margin-top 0.1s ease;
+}
+.cont_base_artes:hover .caja_artes_superior{
+    margin-top:0;
+}
+
+
+
+/************IMAGENES*****************/
+.cont_base_artes .caja_artes_inferior2{
+    width: 170px;
+    height: 170px;
+    background-image:url(../img/LOGOS/logo_veterinaria2.png);
+    background-size: 100% 100%;
+}
+
+.cont_base_artes .caja_artes_inferior3{
+    width: 170px;
+    height: 170px;
+    background-image:url(../img/LOGOS/logo_veterinaria3.png);
+    background-size: 100% 100%;
+}
+.cont_base_artes .caja_artes_inferior4{
+    width: 170px;
+    height: 170px;
+    background-image:url(../img/LOGOS/logo_veterinaria4.jpg);
+    background-size: 100% 100%;
+}
+.cont_base_artes .caja_artes_inferior5{
+    width: 170px;
+    height: 170px;
+    background-image:url(../img/LOGOS/logo_veterinaria5.png);
+    background-size: 100% 100%;
+}
+
+
+
+/*************CONTENEDOR SECCION FOOTER*****************************/
+/******************************************/
+/******************************************/
+#seccion_footer{
+    /*width: 100%;*/
+    padding: 5px 1px;
+   
+}
+.menu_inferior{
+    /*width: 100%;
+    margin: auto;
+    background: yellowgreen;   */
+    margin-bottom: 20px;
+}
+.nav .ul{
+    
+    /*width:100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;*/
+}
+.nav .ul .li{
+    width: 150px;
+    margin-left: -20px;
+    text-align: center;
+    padding: 2px;
+    line-height: 12pt;
+    /*display: inline-block;*/
+}
+.nav .ul .li .a{
+    /*color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;*/
+    
+}
+/*.nav .ul .li .a:hover{
+    color: rgb(99, 99, 99);
+}*/
+.descrip_peque{
+    /*color: white;
+    text-align: center;*/
+    padding-top: 3px;
+}
+
+
+/*************CONTENEDOR DE LA GUIA*****************************/
+/******************************************/
+/******************************************/
+.cont_guias{
+    /*width: 60px;
+    height: 40px;
+    background-image: url(../img/DISEÑO/flechas_arriba_blanca.png);
+    background-size: 100% 100%;
+    position: fixed;*/
+    right: 10px;
+    bottom:130px;
+    
+}
+
+
+
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************MAX WIDTH 380PX**********************************/
+/*************************MAX WIDTH 380PX**********************************/
+/*************************MAX WIDTH 380PX**********************************/
+/*************************MAX WIDTH 380PX**********************************/
+/*************************MAX WIDTH 380PX**********************************/
+
+@media only screen and (max-width:380px){
+   /***CONTENEDOR CUADRO DE IMAGEN Y REDES SOCIALES*****************************/
+/******************************************/
+/******************************************/
+
+.cont-diseño{
+    
+    background-image: url(../img/DISEÑO/cabezera.jpg);
+    background-size: 100% 100%;
+    background-attachment:unset;
+}
+
+.cont-diseño_cont-opacity_title{
+    color: rgb(255, 16, 16);
+    text-align: center;
+    font-size: 35px;
+    
+}
+.cont-diseño_cont-opacity_subtitle{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: -30px;
+}
+
+
+/****************SECCION DE CUADROS TARJETAS PERSONALIZADAS**************************/
+/******************************************/
+/******************************************/
+
+#cont_titulo{   /*GLOBAL*/
+    margin-top:-50px ;
+    width: 100%;
+    padding-top: 100px;
+}
+.title{     /*GLOBAL*/
+    text-align: center;
+    font-size: 30px;
+    color: rgb(177, 177, 177);
+   
+}
+.text_description{
+    margin: 30px auto;
+    width: 100%;
+    color:rgb(255, 255, 255);
+    text-align:justify;
+    padding: 0px 20px;
+    
+}
+/**************************************/
+
+.seccion_cuadros{
+    background: rgba(0, 0, 0, 0.452); 
+    padding: 10px 5px;
+    
+}
+.base_box{   /***para todas las cajas*****/
+    margin:10px;
+    width:150px;
+    height: 100px;
+    background:rgb(70, 70, 70);
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px black;
+    overflow: hidden;
+}
+.base_box:hover{
+    box-shadow: 0px 3px 0px rgb(112, 112, 112);
+}
+.base_box.cont_inferior{   /***para todas las cajas*****/
+    width:150px;
+    height:100px;
+    background: rgb(146, 23, 23);
+   
+}
+.base_box .caja_imagen{
+    width: 150px;
+    height: 100px;
+}
+
+
+/****************LAS IMAGENES CUADRO INFERIOR***********************/
+.base_box .imagen1{
+    width: 150px;
+    height: 100px;
+    
+
+}
+.base_box .imagen2{
+    width: 150px;
+    height: 100px;
+    
+
+}
+.base_box .imagen3{
+    width: 150px;
+    height: 100px;
+    
+
+}
+.base_box .imagen4{
+    width: 150px;
+    height: 100px;
+    
+
+}
+.base_box .imagen5{
+    width: 150px;
+    height: 100px;
+    
+
+}
+.base_box .imagen6{
+    width: 150px;
+    height: 100px;
+    
+
+}
+.base_box .imagen7{
+    width: 150px;
+    height: 100px;
+   
+
+}
+.base_box .imagen8{
+    width: 150px;
+    height: 100px;
+    
+
+}
+.base_box .imagen9{
+    width: 150px;
+    height: 100px;
+    
+
+}
+/****************LAS IMAGENES CUADRO SUPERIOR***********************/
+
+.base_box .cont_superior1{  
+    margin-top: -100px;
+    width:150px;
+    height:100px;
+}
+
+.base_box .cont_superior2{  
+    margin-top: -100px;
+    width:150px;
+    height:100px;
+    
+}
+
+
+.base_box .cont_superior3{  
+    margin-top: -100px;
+    width:150px;
+    height:100px;
+    
+}
+
+.base_box .cont_superior4{  
+    margin-top: -100px;
+    width:150px;
+    height:100px;
+      
+}
+
+.base_box .cont_superior5{  
+    margin-top: -100px;
+    width:150px;
+    height:100px;
+    
+}
+
+.base_box .cont_superior6{  
+    margin-top: -100px;
+    width:150px;
+    height:100px;
+    
+}
+
+.base_box .cont_superior7{  
+    margin-top: -100px;
+    width:150px;
+    height:100px;
+      
+}
+
+.base_box .cont_superior8{  
+    margin-top: -100px;
+    width:150px;
+    height:100px;
+       
+}
+
+
+.title_flayers{
+    font-size: 30px;
+    color: rgb(156, 156, 156);
+}
+
+
+  /*************CONTENEDOR SECCION LOGOS*****************************/
+/******************************************/
+/******************************************/
+#title_logos{
+    /*background:rgb(58, 58, 58);
+    padding-top: 100px;*/
+}
+.title_logos{
+    /*text-align: center;*/
+    color: rgb(192, 192, 192);
+    font-size: 30px;
+}
+
+/**********************************/
+.seccion_artes_redes{
+    /*width: 100%;*/
+    padding: 10px 1px;
+    margin: 20px auto;
+    /**display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center; */
+}
+.cont_base_artes{
+    width: 150px;
+    height:150px;
+    margin: 5px 10px;
+    /*overflow: hidden;*/
+    border-radius:5px;
+    box-shadow: 0px 0px 0px rgb(48, 48, 48);
+}
+.cont_base_artes .caja_artes_inferior{
+    width: 150px;
+    height: 150px;
+    background-image:url(../img/LOGOS/logo_veterinaria.png);
+    background-size: 100% 100%;
+}
+.cont_base_artes .caja_artes_superior{
+    /*width: 350px;
+    height: 350px;*/
+    background:transparent;
+    /*transition: margin-top 0.1s ease;*/
+}
+/*.cont_base_artes:hover .caja_artes_superior{
+    margin-top: -350px;
+}*/
+
+
+
+/************IMAGENES*****************/
+.cont_base_artes .caja_artes_inferior2{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.cont_base_artes .caja_artes_inferior3{
+    width: 150px;
+    height: 150px;
+    
+}
+.cont_base_artes .caja_artes_inferior4{
+    width: 150px;
+    height: 150px;
+   
+}
+.cont_base_artes .caja_artes_inferior5{
+    width: 150px;
+    height: 150px;
+    
+}
+
+
+/*************CONTENEDOR DE LA GUIA*****************************/
+/******************************************/
+/******************************************/
+.cont_guias{
+    /*width: 60px;
+    height: 40px;
+    background-image: url(../img/DISEÑO/flechas_arriba_blanca.png);
+    background-size: 100% 100%;
+    position: fixed;*/
+    right: 10px;
+    bottom:130px;
+    
+}
+
+
+
+
+
+
+/*************CONTENEDOR SECCION FOOTER*****************************/
+/******************************************/
+/******************************************/
+#seccion_footer{
+    /*width: 100%;*/
+    padding: 5px 1px;
+   
+}
+.menu_inferior{
+    /*width: 100%;
+    margin: auto;
+    background: yellowgreen;   */
+    margin-top: 20px;
+}
+.nav .ul{
+    
+    /*width:100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;*/
+}
+.nav .ul .li{
+    width: 150px;
+    margin-left: -20px;
+    text-align: center;
+    padding: 2px;
+    line-height: 12pt;
+    /*display: inline-block;*/
+}
+.nav .ul .li .a{
+    /*color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;*/
+    
+}
+/*.nav .ul .li .a:hover{
+    color: rgb(99, 99, 99);
+}*/
+.descrip_peque{
+    /*color: white;
+    text-align: center;*/
+    padding-top: 3px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************MAX WIDTH 330PX**********************************/
+/*************************MAX WIDTH 330PX**********************************/
+/*************************MAX WIDTH 330PX**********************************/
+/*************************MAX WIDTH 330PX**********************************/
+/*************************MAX WIDTH 330PX**********************************/
+
+@media only screen and (max-width:330px){
+    
+
+/***CONTENEDOR CUADRO DE IMAGEN Y REDES SOCIALES*****************************/
+/******************************************/
+/******************************************/
+body{
+    
+}
+.cont-diseño{
+    margin-top: 80px;
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/DISEÑO/cabezera.jpg);
+    background-size: cover;
+    background-attachment: unset;
+}
+#cont-diseño_cont-opacity{
+    width: 100%;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.575);
+    padding-top: 100px;
+}
+.cont-diseño_cont-opacity_title{
+    margin-top: -20px;
+    /*color: rgb(255, 255, 255);
+    text-align: center;*/
+    font-size: 30px;
+   
+}
+.cont-diseño_cont-opacity_subtitle{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: -25px;
+}
+
+
+
+
+
+
+
+/****************SECCION DE CUADROS TARJETAS PERSONALIZADAS**************************/
+/******************************************/
+/******************************************/
+
+#cont_titulo{   /*GLOBAL*/
+    /*margin-top:-50px ;
+    width: 100%;
+    padding-top: 100px;*/
+}
+.title{     /*GLOBAL*/
+    /*text-align: center;
+    color: rgb(202, 202, 202);*/
+    font-size: 28px;
+}
+.text_description{
+    margin: 30px auto;
+    width: 270px;
+    color:rgb(255, 255, 255);
+    text-align:justify;
+    
+}
+/**************************************/
+
+.seccion_cuadros{
+    /*background: rgba(126, 125, 125, 0.452); */
+    padding: 10px 2px;
+    
+}
+.base_box{   /***para todas las cajas*****/
+    margin:5px;
+    width:140px;
+    height: 100px;
+    /*background:rgb(70, 70, 70);
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px black;
+    overflow: hidden;*/
+}
+
+.base_box.cont_inferior{   /***para todas las cajas*****/
+    width:140px;
+    height:100px;
+    /*background: rgb(146, 23, 23);*/
+   
+}
+.base_box .caja_imagen{
+    width: 140px;
+    height: 100px;
+}
+
+
+/****************LAS IMAGENES CUADRO INFERIOR***********************/
+.base_box .imagen1{
+    width: 140px;
+    height: 100px;
+    
+
+}
+.base_box .imagen2{
+    width: 140px;
+    height: 100px;
+    
+
+}
+.base_box .imagen3{
+    width: 140px;
+    height: 100px;
+    
+
+}
+.base_box .imagen4{
+    width: 140px;
+    height: 100px;
+    
+
+}
+.base_box .imagen5{
+    width: 140px;
+    height: 100px;
+    
+
+}
+.base_box .imagen6{
+    width: 140px;
+    height: 100px;
+    
+
+}
+.base_box .imagen7{
+    width: 140px;
+    height: 100px;
+   
+
+}
+.base_box .imagen8{
+    width: 140px;
+    height: 100px;
+    
+
+}
+/****************LAS IMAGENES CUADRO SUPERIOR***********************/
+
+.base_box .cont_superior1{  
+    margin-top: -100px;
+    width:140px;
+    height:100px;
+}
+
+.base_box .cont_superior2{  
+    margin-top: -100px;
+    width:140px;
+    height:100px;
+    
+}
+
+
+.base_box .cont_superior3{  
+    margin-top: -100px;
+    width:140px;
+    height:100px;
+    
+}
+
+.base_box .cont_superior4{  
+    margin-top: -100px;
+    width:140px;
+    height:100px;
+      
+}
+
+.base_box .cont_superior5{  
+    margin-top: -100px;
+    width:140px;
+    height:100px;
+    
+}
+
+.base_box .cont_superior6{  
+    margin-top: -100px;
+    width:140px;
+    height:100px;
+    
+}
+
+.base_box .cont_superior7{  
+    margin-top: -100px;
+    width:140px;
+    height:100px;
+      
+}
+
+.base_box .cont_superior8{  
+    margin-top: -100px;
+    width:140px;
+    height:100px;
+       
+}
+
+
+/****************SECCION DE CUADROS FLAYERS**************************/
+/******************************************/
+/******************************************/
+#cont_titulo_flayers{
+    width: 100%;
+    padding-top: 100px;
+  }
+  .title_flayers{
+      text-align: center;
+      color: rgb(172, 172, 172);
+      font-size: 25px;
+  }
+  
+  /**************************************/
+  .cont_flayers{
+      width:100%;
+      margin: 50px auto;
+      padding: 40px 0px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+  }
+  
+  
+  .base_flayer{
+      width:100%;
+      height: 400px;
+      margin: 10px auto;
+      border-radius: 0px 25px 25px 0px;
+      box-shadow: -5px 5px 5px rgb(54, 54, 54);
+      overflow: hidden;
+      background: red;
+  }
+  .base_flayer .contenido_inferior{
+      width:100%;
+      height: 400px;
+      background: transparent;
+  }
+  .base_flayer .contenido_superior{
+      margin-top:-400px;
+      margin-left: 0px;
+      width:100%;
+      height: 400px;
+      background: rgba(29, 29, 29, 0.801);
+      transition-property: margin-left;
+      transition-duration: 0.2s;
+      transition-timing-function: ease;
+  }
+  .base_flayer:hover .contenido_superior{
+      margin-left: -100%;
+      
+  }
+  
+  .imagen_flayer1{
+      width:100%;
+      height: 400px;
+      background-image: url(../img/FLAYERS/FLAYER1.jpg);
+      background-size: 100% 100%;
+      
+  }
+  .imagen_flayer2{
+      width:100%;
+      height: 400px;
+      background-image: url(../img/FLAYERS/FLAYER5.jpg);
+      background-size: 100% 100%;
+      
+  }
+  .imagen_flayer3{
+      width:100%;
+      height: 400px;
+      background-image: url(../img/FLAYERS/FLAYER\ 3.jpg);
+      background-size: 100% 100%;
+      
+  }
+  .imagen_flayer4{
+      width:100%;
+      height: 400px;
+      background-image: url(../img/FLAYERS/FLAYER\ 4\ .jpg);
+      background-size: 100% 100%;
+  }
+  
+  
+
+  /*************CONTENEDOR SECCION LOGOS*****************************/
+/******************************************/
+/******************************************/
+#title_logos{
+    /*background:rgb(58, 58, 58);
+    padding-top: 100px;*/
+}
+.title_logos{
+    /*text-align: center;
+    color: rgb(192, 192, 192);*/
+    font-size: 28px;
+}
+
+/**********************************/
+.seccion_artes_redes{
+    /*width: 100%;
+    background: yellowgreen;
+    padding: 10px 1px;
+    margin: 20px auto;
+    /**display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center; */
+}
+.cont_base_artes{
+    
+    width: 130px;
+    height:130px;
+    margin: 5px 10px;
+    /*overflow: hidden;*/
+    border-radius:5px;
+    box-shadow: 0px 0px 0px rgb(48, 48, 48);
+}
+.cont_base_artes .caja_artes_inferior{
+    width: 130px;
+    height: 130px;
+    background-image:url(../img/LOGOS/logo_veterinaria.png);
+    background-size: 100% 100%;
+}
+.cont_base_artes .caja_artes_superior{
+    /*width: 350px;
+    height: 350px;*/
+    background:transparent;
+    /*transition: margin-top 0.1s ease;*/
+}
+/*.cont_base_artes:hover .caja_artes_superior{
+    margin-top: -350px;
+}*/
+
+
+
+/************IMAGENES*****************/
+.cont_base_artes .caja_artes_inferior2{
+    width: 130px;
+    height: 130px;
+    
+}
+
+.cont_base_artes .caja_artes_inferior3{
+    width: 130px;
+    height: 130px;
+    
+}
+.cont_base_artes .caja_artes_inferior4{
+    width: 130px;
+    height: 130px;
+   
+}
+.cont_base_artes .caja_artes_inferior5{
+    width: 130px;
+    height: 130px;
+    
+}
+
+
+/*************CONTENEDOR DE LA GUIA*****************************/
+/******************************************/
+/******************************************/
+.cont_guias{
+    /*width: 60px;
+    height: 40px;
+    background-image: url(../img/DISEÑO/flechas_arriba_blanca.png);
+    background-size: 100% 100%;
+    position: fixed;*/
+    right: 2px;
+    bottom:130px;
+    
+}
+
+
+
+
+
+
+/*************CONTENEDOR SECCION FOOTER*****************************/
+/******************************************/
+/******************************************/
+#seccion_footer{
+    /*width: 100%;*/;
+    padding: 5px 1px;
+   
+}
+.menu_inferior{
+    /*width: 100%;
+    margin: auto;
+    background: yellowgreen;   */
+    
+}
+.nav .ul{
+   
+    /*width:100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;*/
+}
+.nav .ul .li{
+    
+    width: 140px;
+    margin-left: -33px;
+    /*text-align: center;
+    padding: 2px;
+    line-height: 12pt;
+    display: inline-block;*/
+}
+.nav .ul .li .a{
+    
+    /*color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;*/
+    
+}
+/*.nav .ul .li .a:hover{
+    color: rgb(99, 99, 99);
+}*/
+.descrip_peque{
+    /*color: white;
+    text-align: center;*/
+    padding-top: 3px;
+    font-size: 13px;
+    
+}
+
+}
