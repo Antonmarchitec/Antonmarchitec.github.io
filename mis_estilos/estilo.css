@@ -291,7 +291,7 @@ body{
 #cont_grande{
     width:100%;
     /*background: #961919;*/
-    background-image:url(../img/fondoweb.png);
+    background-image:url(../img/fondoWeb.png);
     background-size: 100% 100%;
     background-attachment: fixed;
     padding: 50px 20px;
@@ -376,7 +376,7 @@ body{
 .cont_todos_marcos-marco-image2{
     width: 100%;
     height: 250px;
-    background-image: url(../img/SERVICIOS/WORDPRESS.png);
+    background-image: url(../img/SERVICIOS/wordpress.png);
     background-size: 100% 100%;
     transition: all 0.5s;
 }
